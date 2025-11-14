@@ -99,7 +99,18 @@
 #     # or
 #     summa += i
 # print(f"Summa on {summa}")
+number = 0
 
-for i in range(1, 8):
+while True:
     a = input("Sisesta arv: ")
+    if int(a) > 0:
+        number = number + int(a)
+    else:
+        break
+
+for i in range(1, 7):
+    b = input("Sisesta arv: ")
+    if 
+print("Nende korrut: ")
+
 
